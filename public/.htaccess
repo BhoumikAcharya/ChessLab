@@ -1,0 +1,12 @@
+# Static Apache/LiteSpeed hosting (Hostinger). Routing uses URL hashes.
+<IfModule mod_mime.c>
+  AddType application/wasm .wasm
+  AddType application/gzip .gz .tgz
+  # Serve the source archive unchanged, rather than transparently decompressing it.
+  RemoveEncoding .gz .tgz
+</IfModule>
+<IfModule mod_headers.c>
+  <Files "index.html">
+    Header set Cache-Control "no-cache"
+  </Files>
+</IfModule>

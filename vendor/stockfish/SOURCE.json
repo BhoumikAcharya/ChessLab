@@ -1,0 +1,13 @@
+{
+  "package": "stockfish",
+  "version": "16.0.0",
+  "commit": "efc5758a1cf72ec7644fa771a1f17fcbfdae410e",
+  "archive": "stockfish-16.0.0-source.tar.gz",
+  "url": "https://codeload.github.com/nmrugg/stockfish.js/tar.gz/efc5758a1cf72ec7644fa771a1f17fcbfdae410e",
+  "sha256": "e9334f6baec2a83f93a21fe90345a0aaf837a42ba0bd04813d9b051104b7568f",
+  "engineFiles": {
+    "stockfish-nnue-16-single.js": "e2958bb89fc6ee0faedde87284bbb7e14da2ab224f06ca1bd82e62eaca87d00b",
+    "stockfish-nnue-16-single.wasm": "a7acf7f20cb81d755b39b3dd42a4bdfd6e8c8d3d203d9fbdc525e40e1f68df08"
+  },
+  "download": "stockfish-16.0.0-source.tgz"
+}
